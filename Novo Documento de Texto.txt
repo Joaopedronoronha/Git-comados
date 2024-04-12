@@ -1,0 +1,50 @@
+git init Initialize a new Git repository.
+git clone repository Clone a repository into a new directory.
+git status Show the status of the working directory and staging area.
+git add file Add a file to the staging area.
+git commit -m message Commit changes in the staging area with a message.
+git push Push commits to a remote repository.
+git pull Fetch from and integrate with another repository or a local branch.
+git branch List all local branches.
+git branch branch_name Create a new branch.
+git checkout branch_name Switch to a different branch.
+git merge branch_name Merge changes from one branch into the current branch.
+git log Show commit logs.
+git diff Show changes between commits, commit and working tree, etc.
+git reset Reset current HEAD to the specified state.
+git stash Stash changes in the working directory.
+git stash pop Apply stashed changes to the working directory.
+git remote Manage set of tracked repositories.
+git remote -v List remote repositories.
+git remote add name url Add a new remote repository.
+git remote remove name Remove a remote repository.
+git tag List, create, or delete tags.
+git tag -a tag_name -m message Create an annotated tag.
+git show tag_name Show tag information.
+git fetch remote Download objects and refs from another repository.
+git checkout -b branch_name Create and switch to a new branch.
+git push remote branch_name Push a branch to a remote repository.
+git pull remote branch_name Fetch from the remote repository and merge into the current branch.
+git rebase branch_name Reapply commits on top of another base tip.
+git cherry-pick commit Apply the changes introduced by the specified commits.
+git bisect Use binary search to find the commit that introduced a bug.
+git grep Print lines matching a pattern.
+git clean Remove untracked files from the working tree.
+git config Get and set repository or global options.
+git blame file Show what revision and author last modified each line of a file.
+git show-branch Show branches and their commits.
+git reflog Manage reflog information.
+git remote prune remote Prune all stale remote-tracking branches.
+git remote update Fetch updates from all remotes.
+git revert commit Revert some existing commits.
+git log --graph --oneline Display an ASCII graph of the branch and commit history.
+git log --author=author Show commits by a specific author.
+git log --since=date Show commits since a specific date.
+git log --until=date Show commits until a specific date.
+git log --grep=pattern Show commits with a commit message matching the specified pattern.
+git merge --abort Abort the current merge and restore the state before the merge.
+git remote set-url remote url Change the URL of a remote repository.
+git submodule Initialize, update, or inspect submodules.
+git checkout -- file Discard changes in the working directory for a specific file.
+git push --force Force push to remote repository.
+git log --pretty=format%h - %an, %ar  %s Customize the output format of the commit log.
